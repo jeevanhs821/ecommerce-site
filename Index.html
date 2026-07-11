@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Your Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">Shop</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#cart">Cart <span id="cart-count">0</span></a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Best Products, Best Prices</h1>
+    <p>Shop your favourite products with great discounts</p>
+    <a href="#products" class="btn">Shop nav</a>
+</section>
+
+<section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-list" id="product-list">
+
+    </div>
+</section>
+
+<section id="cart" class="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p class="total">Total: <span id="total-price">$0.00</span></p>
+    <button id="checkout-btn" class="btn">checkout</button>
+</section>
+
+<footer>
+    <p>@ 2026 Shop. All rights reserved</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
